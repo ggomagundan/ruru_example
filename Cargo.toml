@@ -1,0 +1,10 @@
+[package]
+name = "rusty_calculator"
+version = "0.1.0"
+authors = ["Zack Siri <zack@codemy.net>"]
+
+[dependencies]
+ruru = ">= 0.7.0"
+
+[lib]
+crate-type = ["dylib"]
