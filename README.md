@@ -12,7 +12,6 @@ then run
 
 ```
 cargo build --release
-
 ```
 
 then run
