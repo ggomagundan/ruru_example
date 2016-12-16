@@ -2,6 +2,10 @@
 
 This is an example of ruby calling rust code via `ruru`
 
+Current Environment Version
+ - `rustc 1.13.0`
+ - `cargo 0.13.0-nightly`
+
 to run this example please run:
 
 ```
