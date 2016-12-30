@@ -18,13 +18,13 @@ end
 # ... somewhere in the application code ...
 Benchmark.bm do |x|
   x.report {
-    5_000_000.times do 
+    10_000_000.times do 
       Calculator.new.pow_3(5)
     end
   }
 
   x.report { 
-    5_000_000.times do 
+    10_000_000.times do 
       RustyCalculator.new.pow_3(5)
     end
   }

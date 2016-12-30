@@ -1,5 +1,4 @@
-#[macro_use]
-extern crate ruru;
+#[macro_use] extern crate ruru;
 
 use std::error::Error;
 /*
